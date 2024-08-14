@@ -47,7 +47,7 @@ export default function Gallery() {
   return (
     <Wrapper>
       <Divider plain style={{ marginTop: 0, marginBottom: 32 }}>
-        <Title>우리의 아름다운 순간</Title>
+        <Title>Our beautiful moment</Title>
       </Divider>
       <ImageGallery
         showPlayButton={false}

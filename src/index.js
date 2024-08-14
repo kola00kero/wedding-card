@@ -4,6 +4,7 @@ import './index.css';
 import JsonData from "./data.json";
 
 import Title from "./component/Title";
+import Schedule from "./component/Schedule";
 import Gretting from "./component/Gretting";
 import Gallery from "./component/Gallery";
 import Location from "./component/Location";
@@ -20,9 +21,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Title data={JsonData} />
+    <Schedule />
     <Gretting data={JsonData} />
     <Gallery />
-    <Location />
+    <Location data={JsonData}/>
     <CongratulatoryMoney data={JsonData} />
     <Share data={JsonData} />
   </React.StrictMode>

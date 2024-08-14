@@ -2,21 +2,13 @@
   "date": "09 Sep 2024",
   "location": "@Chateau de Bear hotel",
   "gretting": "서로 마주 보며 다져온 사랑을\n이제 함께 한곳을 바라보며 걸어갈 수 있는\n큰 사랑으로 키우고자 합니다.\n저희 두 사람이 사랑의 이름으로 지켜나갈 수 있게\n앞날을 축복해 주시면 감사하겠습니다.",
-  "groom": {
-    "name": "May",
-    "account_number": "○○은행 ***-***-******",
-    "parents": {
-      "mother": {
-        "name": "○○○",
-        "account_number": "○○은행 ***-***-******"
-      },
-      "father": {
-        "name": "○○○",
-        "account_number": "○○은행 ***-***-******"
-      }
-    }
+  "locationMap" :{
+    "name": "Chateau de Bear hotel (โรงแรมหมีกอดหมอน)",
+    "address":"11/82 หมู่11 ถนน ทางหลวงแผ่นดินหมายเลข117 Mueang Nakhon Sawan District, Nakhon Sawan 60000",
+    "phone":"056 224 466",
+    "direction":"https://maps.app.goo.gl/CrmHiKpHvFqL6hFJ6"
   },
-  "bride": {
+  "groom": {
     "name": "Toom",
     "account_number": "○○은행 ***-***-******",
     "parents": {
@@ -30,9 +22,18 @@
       }
     }
   },
-  "kakaotalk": {
-    "api_token": "",
-    "wedding_invitation_url": "",
-    "share_image": ""
+  "bride": {
+    "name": "May",
+    "account_number": "○○은행 ***-***-******",
+    "parents": {
+      "mother": {
+        "name": "○○○",
+        "account_number": "○○은행 ***-***-******"
+      },
+      "father": {
+        "name": "○○○",
+        "account_number": "○○은행 ***-***-******"
+      }
+    }
   }
 }
