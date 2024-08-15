@@ -11,7 +11,6 @@ const Layout = styled("div", {
   
 const Image = styled("img", {
     backgroundColor: "#aeb8b3 !important",
-    opacity: 0.9,
     objectFit: "cover",
     objectPosition: "center center",
     width: "100%",

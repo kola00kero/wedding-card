@@ -23,16 +23,6 @@ const TitleWrapper = styled("div", {
   "-o-animation": "fadein 3s" /* Opera */,
 });
 
-const VideoBackground = styled("video", {
-  backgroundColor: "#aeb8b3 !important",
-  opacity: 0.9,
-  objectFit: "cover",
-  objectPosition: "center center",
-  width: "100%",
-  height: "100%",
-  minHeight: 480,
-});
-
 const WeddingInvitation = styled("p", {
   fontSize: "1.5vh",
   opacity: 0.45,
@@ -71,7 +61,6 @@ export default function Title({ data }: TitleProps) {
     <Layout>
 
       <Image src="./assets/Title.jpg" />
-      
       <TitleWrapper>
         <WeddingInvitation>WEDDING INVITATION</WeddingInvitation>
         <GroomBride>
