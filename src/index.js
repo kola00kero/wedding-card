@@ -10,9 +10,6 @@ import Gallery from "./component/Gallery";
 import Location from "./component/Location";
 import CongratulatoryMoney from "./component/CongratulatoryMoney";
 
-import Share from "./component/Share";
-
-
 import reportWebVitals from './reportWebVitals';
 
 
@@ -26,7 +23,6 @@ root.render(
     <Gallery />
     <Location data={JsonData}/>
     <CongratulatoryMoney data={JsonData} />
-    <Share data={JsonData} />
   </React.StrictMode>
 );
 

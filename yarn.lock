@@ -4738,7 +4738,7 @@
     "safe-regex-test" "^1.0.3"
     "string.prototype.includes" "^2.0.0"
 
-"eslint-plugin-react-hooks@^4.3.0":
+"eslint-plugin-react-hooks@^4.3.0", "eslint-plugin-react-hooks@^4.6.2":
   "integrity" "sha512-QzliNJq4GinDBcD8gPB5v0wh6g8q3SUi6EFF0x8N/BL9PoVs0atuGc47ozMRyOWAKdwaZ5OnbOEa3WR+dSGKuQ=="
   "resolved" "https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.2.tgz"
   "version" "4.6.2"
