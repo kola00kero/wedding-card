@@ -1,8 +1,7 @@
 import { CheckCircleTwoTone } from "@ant-design/icons";
 import { styled } from "@stitches/react";
-import { Button, Divider, Modal, message, Form, Input, Radio, Space, notification } from "antd";
+import { Button, Divider, Modal, Form, Input, Radio, Space, notification } from "antd";
 import { useState, useCallback } from "react";
-import CopyToClipboard from "react-copy-to-clipboard";
 
 const Wrapper = styled("div", {
   background: "#efebe9",
@@ -26,13 +25,6 @@ const SubContent = styled("p", {
   marginBottom: 24,
 });
 
-const Description = styled("p", {
-  fontSize: "1.3vh",
-  lineHeight: 1.75,
-  opacity: 0.65,
-  marginTop: 8,
-});
-
 const ContactButton = styled("div", {
   display: "inline-block",
   textAlign: "center",
@@ -40,6 +32,14 @@ const ContactButton = styled("div", {
   marginRight: 24,
   marginBottom: 24,
 });
+
+const Image = styled("img", {
+  backgroundColor: "#aeb8b3 !important",
+  objectFit: "cover",
+  objectPosition: "center center",
+  width: "100%",
+  height: "100%",
+});  
 
 type CongratulatoryMoneyProps = {
   data?: Data;
@@ -171,7 +171,7 @@ export default function CongratulatoryMoney({
         <Button type="primary" htmlType="submit">
           Submit
         </Button>
-      </Form>
+        </Form>
       </Modal>
       <Modal
         title={<b>신부측 계좌번호</b>}
@@ -182,60 +182,7 @@ export default function CongratulatoryMoney({
         okButtonProps={{ style: { display: "none" } }}
         footer={null}
       >
-        {data?.bride?.parents?.father && (
-          <div>
-            <b>부) {data?.bride?.parents?.father?.name}</b>
-            <Divider type="vertical" />
-            <CopyToClipboard
-              text={data?.bride?.parents?.father?.account_number}
-            >
-              <Button
-                type="text"
-                style={{ padding: 0, margin: 0 }}
-                onClick={() => message.success("계좌번호가 복사되었습니다.")}
-              >
-                {data?.bride?.parents?.father?.account_number}
-              </Button>
-            </CopyToClipboard>
-          </div>
-        )}
-        {data?.bride?.parents?.mother && (
-          <div style={{ marginTop: 24, marginBottom: 24 }}>
-            <b>모) {data?.bride?.parents?.mother?.name}</b>
-            <Divider type="vertical" />
-            <CopyToClipboard
-              text={data?.bride?.parents?.mother?.account_number}
-            >
-              <Button
-                type="text"
-                style={{ padding: 0, margin: 0 }}
-                onClick={() => message.success("계좌번호가 복사되었습니다.")}
-              >
-                {data?.bride?.parents?.mother?.account_number}
-              </Button>
-            </CopyToClipboard>
-          </div>
-        )}
-        {data?.bride && (
-          <div>
-            <b>신부 {data?.bride?.name}</b>
-            <Divider type="vertical" />
-            <CopyToClipboard text={data?.bride?.account_number}>
-              <Button
-                type="text"
-                style={{ padding: 0, margin: 0 }}
-                onClick={() => message.success("계좌번호가 복사되었습니다.")}
-              >
-                {data?.bride?.account_number}
-              </Button>
-            </CopyToClipboard>
-          </div>
-        )}
-        <div>
-          <Description>
-            계좌번호 클릭시, 붙여넣기 가능한 텍스트로 복사됩니다.
-          </Description>
-        </div>
+        <Image src="./assets/images/QRpay.JPG" />
       </Modal>
     </Wrapper>
   );

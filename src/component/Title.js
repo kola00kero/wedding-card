@@ -24,14 +24,13 @@ const TitleWrapper = styled("div", {
 });
 
 const WeddingInvitation = styled("p", {
-  fontSize: "1.5vh",
-  opacity: 0.45,
+  fontSize: "2.5vh",
   marginBottom: 16,
 });
 
 const GroomBride = styled("p", {
-  fontSize: "3.5vh",
-  fontWeight: "bold",
+  fontFamily: "Amsterdam Four_ttf",
+  fontSize: "6vh",
   opacity: 0.9,
   marginBottom: 16,
 });
@@ -60,15 +59,16 @@ export default function Title({ data }: TitleProps) {
   return (
     <Layout>
 
-      <Image src="./assets/Title.jpg" />
+      <Image src="./assets/images/Title.jpg" />
       <TitleWrapper>
-        <WeddingInvitation>WEDDING INVITATION</WeddingInvitation>
-        <GroomBride>
-          {data?.groom?.name} &#38; {data?.bride?.name}
-        </GroomBride>
+        <WeddingInvitation>{data?.weddinginvitation}</WeddingInvitation>
         <Schedule>
           {data?.date}
-          <br />
+        </Schedule>
+        <GroomBride>
+        {data?.bride?.name} &#38; {data?.groom?.name} 
+        </GroomBride>
+        <Schedule>
           {data?.location}
         </Schedule>
       </TitleWrapper>

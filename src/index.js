@@ -7,6 +7,7 @@ import Title from "./component/Title";
 import Schedule from "./component/Schedule";
 import Gretting from "./component/Gretting";
 import Gallery from "./component/Gallery";
+import Gallery2 from "./component/Gallery2";
 import Location from "./component/Location";
 import CongratulatoryMoney from "./component/CongratulatoryMoney";
 
@@ -21,6 +22,7 @@ root.render(
     <Schedule />
     <Gretting data={JsonData} />
     <Gallery />
+    <Gallery2 />
     <Location data={JsonData}/>
     <CongratulatoryMoney data={JsonData} />
   </React.StrictMode>

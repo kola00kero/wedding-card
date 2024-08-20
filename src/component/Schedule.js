@@ -3,7 +3,7 @@ import { styled } from "@stitches/react";
 
 const Layout = styled("div", {
     width: "100%",
-    height: "100vh",
+    height: "60vmax",
     overflow: "hidden",
     margin: "0px auto",
     position: "relative",
@@ -15,13 +15,12 @@ const Image = styled("img", {
     objectPosition: "center center",
     width: "100%",
     height: "100%",
-    minHeight: 480,
 });  
 
 export default function Schedule() {
     return (
       <Layout>
-        <Image src="./assets/Schedule.png" />
+        <Image src="./assets/images/Schedule.png" />
       </Layout>
     );
   }
