@@ -5,8 +5,6 @@ import JsonData from "./data.json";
 
 import Title from "./component/Title";
 import Schedule from "./component/Schedule";
-import Gretting from "./component/Gretting";
-import Gallery from "./component/Gallery";
 import Gallery2 from "./component/Gallery2";
 import Location from "./component/Location";
 import CongratulatoryMoney from "./component/CongratulatoryMoney";
@@ -20,11 +18,9 @@ root.render(
   <React.StrictMode>
     <Title data={JsonData} />
     <Schedule />
-    <Gretting data={JsonData} />
-    <Gallery />
     <Gallery2 />
     <Location data={JsonData}/>
-    <CongratulatoryMoney data={JsonData} />
+    <CongratulatoryMoney />
   </React.StrictMode>
 );
 

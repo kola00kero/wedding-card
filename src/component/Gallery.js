@@ -18,28 +18,28 @@ const Title = styled("p", {
 
 const images = [
   {
-    original: "./assets/images/0001_PUM20578.jpg",
-    thumbnail: "./assets/images/0001_PUM20578.jpg",
+    original: "../images/0001_PUM20578.jpg",
+    thumbnail: "../images/0001_PUM20578.jpg",
   },
   {
-    original: "./assets/images/0004_PUM20804.jpg",
-    thumbnail: "./assets/images/0004_PUM20804.jpg",
+    original: "../images/0004_PUM20804.jpg",
+    thumbnail: "../images/0004_PUM20804.jpg",
   },
   {
-    original: "./assets/images/0008_PUM11165.jpg",
-    thumbnail: "./assets/images/0008_PUM11165.jpg",
+    original: "../images/0008_PUM11165.jpg",
+    thumbnail: "../images/0008_PUM11165.jpg",
   },
   {
-    original: "./assets/images/0014_PUM21641.jpg",
-    thumbnail: "./assets/images/0014_PUM21641.jpg",
+    original: "../images/0014_PUM21641.jpg",
+    thumbnail: "../images/0014_PUM21641.jpg",
   },
   {
-    original: "./assets/images/0018_PUM12376.jpg",
-    thumbnail: "./assets/images/0018_PUM12376.jpg",
+    original: "../images/0018_PUM12376.jpg",
+    thumbnail: "../images/0018_PUM12376.jpg",
   },
   {
-    original: "./assets/images/0026_PUM13045.jpg",
-    thumbnail: "./assets/images/0026_PUM13045.jpg",
+    original: "../images/0026_PUM13045.jpg",
+    thumbnail: "../images/0026_PUM13045.jpg",
   },
 ];
 

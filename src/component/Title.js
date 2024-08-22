@@ -1,5 +1,6 @@
 import React from "react";
 import { styled } from "@stitches/react";
+import imgTitle from "../images/Title.jpg";
 
 const Layout = styled("div", {
   width: "100%",
@@ -59,7 +60,7 @@ export default function Title({ data }: TitleProps) {
   return (
     <Layout>
 
-      <Image src="./assets/images/Title.jpg" />
+      <Image src={imgTitle} />
       <TitleWrapper>
         <WeddingInvitation>{data?.weddinginvitation}</WeddingInvitation>
         <Schedule>
