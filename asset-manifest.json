@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/wedding-card/static/css/main.acb4453d.css",
-    "main.js": "/wedding-card/static/js/main.483dd213.js",
+    "main.js": "/wedding-card/static/js/main.9238fd23.js",
     "static/js/453.94a8515f.chunk.js": "/wedding-card/static/js/453.94a8515f.chunk.js",
-    "static/media/pic3.jpg": "/wedding-card/static/media/pic3.355f2736847ffd537952.jpg",
-    "static/media/pic5.jpg": "/wedding-card/static/media/pic5.ddb61afe25f0c354ee16.jpg",
-    "static/media/pic6.jpg": "/wedding-card/static/media/pic6.1750da94d60c488551b8.jpg",
-    "static/media/pic4.jpg": "/wedding-card/static/media/pic4.7e49808e6812f1614666.jpg",
-    "static/media/Title.jpg": "/wedding-card/static/media/Title.912df35db3faa3f82721.jpg",
-    "static/media/pic7.jpg": "/wedding-card/static/media/pic7.6216815094ed06120826.jpg",
-    "static/media/pic8.jpg": "/wedding-card/static/media/pic8.3d9b43b705ffd7931b9d.jpg",
-    "static/media/pic2.jpg": "/wedding-card/static/media/pic2.aabd93d3d408fa2a8a6a.jpg",
     "static/media/Schedule.png": "/wedding-card/static/media/Schedule.a444ce3455584e8543a1.png",
-    "static/media/pic1.jpg": "/wedding-card/static/media/pic1.5e177f271357d72489b3.jpg",
+    "static/media/pic3.jpg": "/wedding-card/static/media/pic3.c37c2d0881a54cd3a47e.jpg",
+    "static/media/pic5.jpg": "/wedding-card/static/media/pic5.e0ccfeab38f14043c18f.jpg",
+    "static/media/pic1.jpg": "/wedding-card/static/media/pic1.c414f20647f8465b5602.jpg",
+    "static/media/Title.jpg": "/wedding-card/static/media/Title.f174cf61b6b1f5e21796.jpg",
+    "static/media/pic6.jpg": "/wedding-card/static/media/pic6.798028416914f0cab4f7.jpg",
+    "static/media/pic2.jpg": "/wedding-card/static/media/pic2.d59d42a7804518c0e198.jpg",
+    "static/media/pic4.jpg": "/wedding-card/static/media/pic4.26d58e1e64edad4ef1ee.jpg",
+    "static/media/pic8.jpg": "/wedding-card/static/media/pic8.228757008f9e34c8d689.jpg",
+    "static/media/pic7.jpg": "/wedding-card/static/media/pic7.ce944834720932adf476.jpg",
     "static/media/QRpay.JPG": "/wedding-card/static/media/QRpay.ae566177f22b3e11f392.JPG",
     "index.html": "/wedding-card/index.html",
     "main.acb4453d.css.map": "/wedding-card/static/css/main.acb4453d.css.map",
-    "main.483dd213.js.map": "/wedding-card/static/js/main.483dd213.js.map",
+    "main.9238fd23.js.map": "/wedding-card/static/js/main.9238fd23.js.map",
     "453.94a8515f.chunk.js.map": "/wedding-card/static/js/453.94a8515f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.acb4453d.css",
-    "static/js/main.483dd213.js"
+    "static/js/main.9238fd23.js"
   ]
 }
